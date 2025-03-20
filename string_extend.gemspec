@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version = '0.0.1'
   s.summary = "StringExtend adds useful features to the String class"
   s.platform = Gem::Platform::RUBY
-  s.files = Dir.glob("**/**/**")
+  s.files = Dir['lib/**/*.rb', 'README.md', 'LICENSE.txt']
   s.test_files = Dir.glob("test/*_test.rb")
   s.authors = ["binhtruong"]
   s.email = "truonglocbinh93@gmail.coom"
